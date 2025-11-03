@@ -1,0 +1,19 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Progress files
+categorized_questions_progress.json
+categorized_questions_final.json
+categories_for_db.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+
+
+

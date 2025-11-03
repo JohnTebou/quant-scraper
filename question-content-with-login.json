@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Place Or Take",
+    "link": "https://quantguide.io/questions/place-or-take",
+    "difficulty": "Hard",
+    "tags": [
+      "Probability"
+    ],
+    "questionText": "You are playing a one-player game with two opaque boxes. At each turn, you can choose to either \"place\" or \"take\". \"Place\" places $\\$$1 from a third party into one box randomly. \"Take\" empties out one box randomly and that money is yours. This game consists of 100 turns where you must either place or take. Assuming optimal play, what is the expected payoff of this game? Note that you do not know how much money you have taken until the end of the game.",
+    "questionHtml": "You are playing a one-player game with two opaque boxes. At each turn, you can choose to either \"place\" or \"take\". \"Place\" places <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">$</mi></mrow><annotation encoding=\"application/x-tex\">\\$</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.80556em;vertical-align:-0.05556em;\"></span><span class=\"mord\">$</span></span></span></span>1 from a third party into one box randomly. \"Take\" empties out one box randomly and that money is yours. This game consists of 100 turns where you must either place or take. Assuming optimal play, what is the expected payoff of this game? Note that you do not know how much money you have taken until the end of the game.",
+    "hasLatex": true,
+    "scrapedAt": "2025-11-01T09:38:48.881Z"
+  },
+  {
+    "name": "Collecting Toys II",
+    "link": "https://quantguide.io/questions/collecting-toys-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Probability"
+    ],
+    "questionText": "Every box of cereal contains one toy from a group of 555 distinct toys, each of which is mutually independent from the others and is equally likely to be within a given box. How many distinct toys can you expect to collect if you bought 777 boxes?",
+    "questionHtml": "Every box of cereal contains one toy from a group of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>5</mn></mrow><annotation encoding=\"application/x-tex\">5</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.64444em;vertical-align:0em;\"></span><span class=\"mord\">5</span></span></span></span> distinct toys, each of which is mutually independent from the others and is equally likely to be within a given box. How many distinct toys can you expect to collect if you bought <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn></mrow><annotation encoding=\"application/x-tex\">7</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.64444em;vertical-align:0em;\"></span><span class=\"mord\">7</span></span></span></span> boxes?",
+    "hasLatex": true,
+    "scrapedAt": "2025-11-01T09:38:58.904Z"
+  },
+  {
+    "name": "Chess Tournament I",
+    "link": "https://quantguide.io/questions/chess-tournament-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Probability"
+    ],
+    "questionText": "A chess tournament has 128 players, each with a distinct rating. Assume that the player with the higher rating always wins against a lower rated opponent and that the winner proceeds to the subsequent round. What is the probability that the highest rated and second-highest rated players will meet in the final?",
+    "questionHtml": "A chess tournament has 128 players, each with a distinct rating. Assume that the player with the higher rating always wins against a lower rated opponent and that the winner proceeds to the subsequent round. What is the probability that the highest rated and second-highest rated players will meet in the final?",
+    "hasLatex": false,
+    "scrapedAt": "2025-11-01T09:39:08.253Z"
+  },
+  {
+    "name": "Poker Hands I",
+    "link": "https://quantguide.io/questions/poker-hands-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Probability"
+    ],
+    "questionText": "A poker hand consists of five cards from a standard deck of 525252 cards. If ppp is the probability that you have a four-of-a-kind (four of the five cards have the same rank), find the reciprocal of ppp.",
+    "questionHtml": "A poker hand consists of five cards from a standard deck of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>52</mn></mrow><annotation encoding=\"application/x-tex\">52</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.64444em;vertical-align:0em;\"></span><span class=\"mord\">52</span></span></span></span> cards. If <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi></mrow><annotation encoding=\"application/x-tex\">p</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.19444em;\"></span><span class=\"mord mathnormal\">p</span></span></span></span> is the probability that you have a four-of-a-kind (four of the five cards have the same rank), find the reciprocal of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi></mrow><annotation encoding=\"application/x-tex\">p</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.19444em;\"></span><span class=\"mord mathnormal\">p</span></span></span></span>.",
+    "hasLatex": true,
+    "scrapedAt": "2025-11-01T09:39:16.419Z"
+  },
+  {
+    "name": "Free Sundae",
+    "link": "https://quantguide.io/questions/free-sundae",
+    "difficulty": "Hard",
+    "tags": [
+      "Probability"
+    ],
+    "questionText": "You are in line at an ice cream shop when the manager announces that she will give a free sundae to the first person in line whose birthday is the same as someone who has already bought an ice cream. Assuming that you do not know anyone else's birthday and that all birthdays are uniformly distributed across the 365 days in a normal year, what position in line will you choose to maximize your probability of receiving the free sundae?",
+    "questionHtml": "You are in line at an ice cream shop when the manager announces that she will give a free sundae to the first person in line whose birthday is the same as someone who has already bought an ice cream. Assuming that you do not know anyone else's birthday and that all birthdays are uniformly distributed across the 365 days in a normal year, what position in line will you choose to maximize your probability of receiving the free sundae?",
+    "hasLatex": false,
+    "scrapedAt": "2025-11-01T09:39:25.613Z"
+  }
+]

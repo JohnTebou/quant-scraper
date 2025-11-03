@@ -1,0 +1,52 @@
+{
+  "name": "quant-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "scrape": "tsx scripts/scrape.ts",
+    "scrape:auth": "tsx scripts/scrape-with-auth.ts",
+    "scrape:login": "tsx scripts/scrape-with-login.ts",
+    "scrape:keyboard": "tsx scripts/scrape-with-keyboard.ts",
+    "inspect": "tsx scripts/inspect-site.ts",
+    "debug:premium": "tsx scripts/debug-premium.ts",
+    "db:upload": "tsx scripts/upload-to-supabase-simple.ts",
+    "db:check": "tsx scripts/check-supabase.ts",
+    "debug:premium:detailed": "tsx scripts/debug-premium-detailed.ts",
+    "find:all": "tsx scripts/find-all-questions.ts",
+    "diagnose": "tsx scripts/diagnose-pagination.ts",
+    "db:find-missing": "tsx scripts/find-missing.ts",
+    "db:create-views": "tsx scripts/create-views.ts",
+    "db:check-tags": "tsx scripts/check-tags.ts",
+    "db:get-ddl": "tsx scripts/get-table-ddl.ts",
+    "scrape:content": "tsx scripts/scrape-question-content.ts",
+    "inspect:question": "tsx scripts/inspect-question-page.ts",
+    "scrape:content:login": "tsx scripts/scrape-content-with-login.ts",
+    "scrape:all": "tsx scripts/scrape-all-questions.ts",
+    "db:upload-questions": "tsx scripts/upload-questions-to-db.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "next": "^15.0.0",
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5"
+  }
+}

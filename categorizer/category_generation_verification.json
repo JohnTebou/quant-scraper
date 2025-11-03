@@ -1,0 +1,1627 @@
+{
+  "generated_categories": [
+    "Binary Strings",
+    "Brainteasers",
+    "Circular Arrangements",
+    "Combinatorics",
+    "Conditional Probability",
+    "Covariance",
+    "Expected Value",
+    "Exponential Distribution",
+    "Finance",
+    "Indistinguishable Objects",
+    "Matrix Eigenvalues",
+    "Non-Negative Integer Solutions",
+    "Option Pricing",
+    "Poisson Distribution",
+    "Probability",
+    "Random Variables",
+    "Sampling Without Replacement",
+    "Statistics",
+    "Uniform Distribution",
+    "Urn Problems"
+  ],
+  "sample_questions_analyzed": [
+    {
+      "name": "Identical Alpha",
+      "difficulty": "Hard",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Let X1X_1X1​ and X2X_2X2​ be i.i.d. uniform distributions over [θ,θ+1][\\theta, \\theta + 1][θ,θ+1]. We are testing the null hypothesis H0:θ=0H_0: \\theta = 0H0​:θ=0 against the alternative hypothesis Ha:θ>0H_a: \\theta > 0Ha​:θ>0 with two possible tests. The first test will reject H0H_0H0​ if X1>0.95X_"
+    },
+    {
+      "name": "Circular Birthdays",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "777 people sit around a circular table uniformly at random. All of them have a distinct age. Find the probability that they sit down at the table in age order. Note that the ages can be increasing in either the clockwise or counter-clockwise directions."
+    },
+    {
+      "name": "Poisson Review IV",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Gabe makes rugs. The number of imperfections follows a Poisson distribution with an average of 4 per square yard. The probability that a 3-square-yard rug sample contains at least 1 imperfection can be expressed in the form 1+aeb1 + \\frac{a}{e^b}1+eba​. Compute a+ba + ba+b."
+    },
+    {
+      "name": "Exponential Ball Draw",
+      "difficulty": "Hard",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "There are 100100100 balls in an urn. Alice and Bob pick the balls in turn, for each round they can pick 2k2^k2k balls for any choice of k≥0k \\geq 0k≥0 as long as there are at least that many balls remaining. Whoever draws the last remaining ball in the urn loses. Alice can choose whether to go first"
+    },
+    {
+      "name": "Diagonal Eigenvalue",
+      "difficulty": "Medium",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "Consider the matrix 30×3030 \\times 3030×30 matrix AAA with Aii=30A_{ii} = 30Aii​=30 for 1≤i≤301 \\leq i \\leq 301≤i≤30 and Aij=1A_{ij} = 1Aij​=1 for i≠ji \\neq ji=j. Let λ=[λ1λ2]\\lambda = \\begin{bmatrix} \\lambda_1 \\\\ \\lambda_2 \\end{bmatrix}λ=[λ1​λ2​​] be the vector of distinct eigenvalues λ1≠λ2\\lambda"
+    },
+    {
+      "name": "Put Call Futures Parity",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "If the 120120120 call on an underlying is priced at 333. The underlying future is priced at 110110110, what price should the corresponding put at the 120120120 strike be?"
+    },
+    {
+      "name": "Die To Number",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A fair die is tossed 16 times, and the values are recorded in the order they appear. The values are then treated as individual digits and appended together. What is the probability that the resulting number is divisible by 8?"
+    },
+    {
+      "name": "Stamp Sum",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "You have infinitely many stamps of values 555 and 212121. Find the largest value that is unable to be expressed as a combination of these stamps."
+    },
+    {
+      "name": "Pick Your Urn Wisely",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You have 2 indistinguishable urns in front of you. One of the urns has 444 $1\\$1$1 chips and 666 $10\\$10$10 chips. The other urn has 333 $1\\$1$1 chips and 777 $10\\$10$10 chips. You reach into one urn at random and select a $1\\$1$1 chip. You are given the opportunity to pick another chip at random ei"
+    },
+    {
+      "name": "Red Blue Equality",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "333 red and nnn blue socks are in a drawer. We know that when two socks are drawn uniformly at random without replacement, the probability both socks are red is 12\\dfrac{1}{2}21​. Find nnn."
+    },
+    {
+      "name": "Colorful Apples",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "There are 4 green and 50 red apples in a basket. They are removed one-by-one, without replacement, until all 4 green ones are extracted. What is the expected number of apples that will be left in the basket?"
+    },
+    {
+      "name": "Sum Exceedance II",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X1,X2,⋯∼Unif(0,1)X_1,X_2,\\dots \\sim \\text{Unif}(0,1)X1​,X2​,⋯∼Unif(0,1) IID and N2=min{n:X1+⋯+Xn>2}N_2 = \\text{min}\\{n : X_1 + \\dots + X_n > 2\\}N2​=min{n:X1​+⋯+Xn​>2}. Find E[N2]\\mathbb{E}[N_2]E[N2​]. Your answer will be in the form ae2+beae^2 + beae2+be for integers aaa and bbb. eee here is Eul"
+    },
+    {
+      "name": "Defining Regression",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Let XXX and YYY be random variables such that E[X]=6,V[X]=2,E[Y]=8,V[Y]=10,E[X]=6, V[X] = 2, E[Y] = 8, V[Y] = 10,E[X]=6,V[X]=2,E[Y]=8,V[Y]=10, and Cov[X,Y]=0Cov[X,Y]=0Cov[X,Y]=0. Suppose you do a simple linear regression of XXX on YYY that results in a model of Y=aX+bY = aX + bY=aX+b. What is a+ba+b"
+    },
+    {
+      "name": "Binary String",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A computer is interpreting an 8−8-8−bit binary string, which consists of 888 characters that are either 111 or 000. How many such strings begin with 111 or end with the two characters 000000?"
+    },
+    {
+      "name": "You Got Mail",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A letter is going to be sent to one of three mailboxes uniformly at random. These mailboxes are labelled 1−31-31−3. If the mail ends up in mailbox iii, then there is a i3\\dfrac{i}{3}3i​ probability that the mail is actually read. Given that you checked Mailbox 111 and didn't read any letter, find th"
+    },
+    {
+      "name": "Basketball Practice",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Frank is shooting free throws. He makes his first free throw and misses his second free throw. For n≥3n \\geq 3n≥3, the probability of making the nnnth free throw is equal to the proportion of free throws he made during his first n−1n-1n−1 attempts. What is the probability that Frank makes exactly 50"
+    },
+    {
+      "name": "Odd Stars",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "How many non-negative odd integer solutions are there to the equation x1+x2+x3+x4+x5+x6=96x_1 + x_2 + x_3 + x_4 + x_5 + x_6 = 96x1​+x2​+x3​+x4​+x5​+x6​=96? The answer is in the form (nk)\\displaystyle \\binom{n}{k}(kn​) for k<n2k < \\dfrac{n}{2}k<2n​. Find nknknk."
+    },
+    {
+      "name": "Put Option Price Estimate",
+      "difficulty": "Hard",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "Consider a European vanilla put option with strike K=15K = 15K=15. You have access to the following binary puts. A binary put pays 111 at expiry if ST<=KS_T <= KST​<=K and 000 otherwise. You have access to the following binary puts and their time-000 prices, given in the format of (Strike K,Price P0"
+    },
+    {
+      "name": "Lily Pads I",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A single lily pad sits in an empty pond. Everyday, the lily pad doubles in area until the whole pond is covered- it is known that it would take 10 days for the single lily pad to cover the entire pond. Imagine instead starting with 8 lily pads on the first day. How many days will it take for the sur"
+    },
+    {
+      "name": "Magic 11",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A number is magical if it ends with the digits 111111. Suppose x∈{1,…,10100}x \\in \\{1, \\ldots, 10^{100}\\}x∈{1,…,10100}. What is the probability that x3x^3x3 is magical?"
+    },
+    {
+      "name": "Breakeven Price I",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "You buy a call option for $3\\$3$3 at a strike price of $4\\$4$4. What is the breakeven price?"
+    },
+    {
+      "name": "Perfect Seating I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Seven people with distinct ages randomly sit down at a circular table with seven seats. What is the probability that the people sit themselves in increasing order of age, irrespective of direction?"
+    },
+    {
+      "name": "Acceptance-Rejection Sampling",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose we want to sample from the PDF of X∼Beta(3,2)X \\sim \\text{Beta}(3,2)X∼Beta(3,2), which has PDF f(x)=12x2(1−x)I(0,1)(x)f(x) = 12x^2(1-x)I_{(0,1)}(x)f(x)=12x2(1−x)I(0,1)​(x). Since you know how to generate uniformly random pairs in the rectangle Ra=[0,1]×[0,a]R_a = [0,1] \\times [0,a]Ra​=[0,1]×"
+    },
+    {
+      "name": "Spacious Uniform Values I",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You sample 101 uniformly random numbers in the interval (0,1)(0,1)(0,1). Find the probability that no two of the values selected are within a distance of 11000\\dfrac{1}{1000}10001​ of one another. The answer should be in the fully reduced form (ab)c\\left(\\dfrac{a}{b}\\right)^c(ba​)c. Find a+b+ca + b "
+    },
+    {
+      "name": "Jane's Children",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "There is a conference for parents with at least one daughter. Jane, a mother with two children, is invited. What is the probability that Jane has two daughters?"
+    },
+    {
+      "name": "Allocating Capital",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are the portfolio manager of a $50\\$50$50 million fund with five potential asset classes to invest in: equity options, commodity futures, fixed income, FX, and cryptocurrencies. How many ways can you invest the capital into these five asset classes in increments of $1\\$1$1 million? For example, "
+    },
+    {
+      "name": "Dice Strike Price",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A fair 12−12-12−sided die has the values 1,3,…,231,3,\\dots,231,3,…,23 on it. What is the fair price of an option with strike price 121212, where you are paid out the numerical value in dollars of the resultant face of the die upon rolling it?"
+    },
+    {
+      "name": "No Arithmetic",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Consider the following sequence: 3,4,5,a,b,30,40,503, 4, 5, a, b, 30, 40, 503,4,5,a,b,30,40,50. How many different ordered pairs of integers (a,b)(a, b)(a,b) satisfy the condition that the sequence is strictly increasing and there does not exist 4 numbers belonging to the sequence that form an arith"
+    },
+    {
+      "name": "Doda Rectangle",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Each vertex of a regular dodecagon is randomly colored either red or blue. A \"dodeca-rectangle\" is defined as a rectangle whose 4 identically-colored vertices belong to the regular dodecagon. Compute the probability that a dodeca-rectangle cannot be formed."
+    },
+    {
+      "name": "Missing Million I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are on a game show with 333 doors in front of you. One of the doors has $1\\$1$1 million inside, while the other two are empty. In the final round, the host lets you spin a wheel that may reveal which door the $1\\$1$1 million is in.  This wheel will tell you the location of the $1\\$1$1 million 3/"
+    },
+    {
+      "name": "Dice Order II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You roll three fair dice. What is the probability that the highest value rolled is a four?"
+    },
+    {
+      "name": "Car Question",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose that we have 222 cars parked in a line occupying spaces 111 and 222 of a parking lot. Spaces 333 and 444 are initially empty. Every minute, a car is considered eligible to move forward one space if a) the space in front of them is empty prior to any potential moves and b) label of the space "
+    },
+    {
+      "name": "No Heads",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let N∼Poisson(2)N \\sim \\text{Poisson}(2)N∼Poisson(2). We flip a fair coin NNN times. Find the probability that no heads are obtained by the end of NNN flips. Your answer should be in the form eae^{a}ea for a rational number aaa. Find aaa."
+    },
+    {
+      "name": "Head-Tail Product",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Billy flips a fair coin nnn times. Let XXX denote the number of heads, and let YYY denote the number of tails. E[XY]\\mathbb{E}[XY]E[XY] can be expressed in the form \nan2+bn+cd\\begin{aligned}\n\\frac{an^2 + bn + c}{d}\n\\end{aligned}dan2+bn+c​​\nfor some integers a,b,c,da, b, c, da,b,c,d, where a,b,ca, b,"
+    },
+    {
+      "name": "Butterfly Payoff",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "You buy a butterfly spread with wings at K=35K = 35K=35 and K=40K = 40K=40 and body at K=37.5K = 37.5K=37.5. What would you like the price of the underlying at expiry to be? In other words, what do you want STS_TST​ to be?"
+    },
+    {
+      "name": "Valid Expressions",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "How many valid arithmetic expressions using only ∗*∗ and +++ are there that include the values 123456789123456789123456789 in order? Some examples include 1+2+3456+7∗89,123+456∗78+9,1 + 2 + 3456 + 7 * 89, 123 + 456 * 78 + 9,1+2+3456+7∗89,123+456∗78+9, and 123456789123456789123456789."
+    },
+    {
+      "name": "Bread Slicer I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Gabe has 2 loaves of bread of lengths 5 and 8. He has no control of where he cuts the length 888 bread piece, so he cuts it at a uniformly random position along its length. What is the probability that the loaf of length 555 and the two resulting pieces of bread from the cut form a triangle?"
+    },
+    {
+      "name": "Covariance Review II",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are given the following information:\nE[X1]=−3E[X2]=7Var[X1]=24Var[X2]=6\\begin{aligned}\n\\mathbb{E}[X_1] &= -3 \\\\ \n\\mathbb{E}[X_2] &= 7 \\\\ \n\\text{Var}[X_1] &= 24 \\\\ \n\\text{Var}[X_2] &= 6 \\\\ \n\\end{aligned}E[X1​]E[X2​]Var[X1​]Var[X2​]​=−3=7=24=6​\nCompute the maximum possible value for Cov(X1,X2)\\tex"
+    },
+    {
+      "name": "Basic Dice Game IV",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You roll a fair die. Then, you get to roll until you obtain a value that differs from your first roll. You get paid out the value equal to the sum of all of your rolls (including the first one). What is the fair value of this game?"
+    },
+    {
+      "name": "Investment Arbitrage",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "You are in a market where you can invest in a stock or bet at a casino in $100\\$100$100 increments. Call these increments units. Note that you may not purchase fractions of a unit. If you invest in the stock, then it goes up or down. If it goes up in value, you gain an additional 100100100 dollars p"
+    },
+    {
+      "name": "Exact 5 I",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Abd continually rolls a fair 6−6-6−sided die until he obtains his first 666. Compute the probability that Abd obtains the value 555 exactly four times before he stops rolling."
+    },
+    {
+      "name": "Better In Red III",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A 3×3×33\\times 3 \\times 33×3×3 cube is composed of 272727 1×1×11\\times 1 \\times 11×1×1 cubes that are white by default. All the surfaces of the 3×3×33 \\times 3 \\times 33×3×3 cube are painted red and then the cube is disassembled such that all orientations of all cubes are equally likely. You select "
+    },
+    {
+      "name": "Deriving Put-Call Parity I",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "A forward contract is a derivative that pays ST−KS_T - KST​−K at expiration, where KKK is the strike price. More specifically, you will get paid if ST>KS_T > KST​>K. If ST<KS_T < KST​<K, then you must pay the other party. \n\nYou have access to the underlying SSS, which has an initial price S0=3S_0 = "
+    },
+    {
+      "name": "Price An Option III",
+      "difficulty": "Medium",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "You have access to the European call options at the following strikes and T0T_0T0​ prices, the underlying SSS which has initial price S0=7S_0 = 7S0​=7, and a bond that has initial price 0.90.90.9, paying 111 at time TTT. The calls are given in the format of (Strike K,Price C0)(\\text{Strike } K, \\tex"
+    },
+    {
+      "name": "Red Card Deal",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A dealer presents to you the following game: The dealer is going to deal cards from the top of a standard deck one card at a time and turn them over on a table for you to see. You can tell the dealer to stop dealing at any time. If the next card is red, you win. Assuming optimal play, what is the hi"
+    },
+    {
+      "name": "Big Mac",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "In the year 200020002000, Big Macs sold for 898989 cents each. Let xxx be the number of Big Macs you can buy with a $20\\$20$20 bill and yyy be the change (in cents) you have left over. Find xyxyxy. Ignore tax or other expenses."
+    },
+    {
+      "name": "2D Paths III",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are playing a 2D game where your character is trapped in a 6×66 \\times 66×6 grid. Your character starts at (0,0)(0,0)(0,0) and can only move up and right. There are two power-ups located at (2,3)(2,3)(2,3) and (4,6)(4,6)(4,6). How many possible paths can your character take to get to (6,6)(6,6)("
+    },
+    {
+      "name": "Voter Mayhem I",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Two candidates, say AAA and BBB, are running for office. Candidate AAA received nnn votes, while Candidate BBB received mmm votes, with n>mn > mn>m. The n+mn+mn+m votes are thrown into a box and shuffled around. Then, the votes are drawn without replacement one-by-one. A running tally of the number "
+    },
+    {
+      "name": "Five Below",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You roll a die until you observe a 555. What is the expected minimum number rolled?"
+    },
+    {
+      "name": "Carded Pair",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Cards are dealt one-by-one from a standard deck of 525252 cards without replacement. The card dealing ends when either 222 kings appear OR at least 111 king and 111 ace appear, whichever comes first. Find the expected number of cards that are dealt in the game."
+    },
+    {
+      "name": "Even Blocks",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Hannah has 12 blocks, 2 each of 6 distinct colors. She randomly arranges the blocks in a straight line. What is the probability that there are an even number of blocks between every identically colored pair of blocks?"
+    },
+    {
+      "name": "Make Your Martingale IV",
+      "difficulty": "Easy",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "Let WtW_tWt​ be a standard Brownian Motion. Define Xt=Wt10−∫0tasdsX_t = W_t^{10} - \\displaystyle \\int_0^t a_s dsXt​=Wt10​−∫0t​as​ds for some process {at}t≥0\\{a_t\\}_{t \\geq 0}{at​}t≥0​ adapted to the natural filtration of the probability space. The process ata_tat​ that makes XtX_tXt​ a martingale ca"
+    },
+    {
+      "name": "Shootout",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "nnn pirates all stole some gold! However, all of them are greedy, so they each are loaded with 222 cannons. Each of the nnn pirates has 222 cannons that they point at 222 distinct pirates among the other n−1n-1n−1. What is the minimum value of nnn such that it is possible to have a situation where n"
+    },
+    {
+      "name": "Segment Traversal",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You select a uniformly random starting point on the circumference of a circle, say P1P_1P1​. Then, you select another uniformly random point on the circumference, P2P_2P2​, and draw a line segment between P1P_1P1​ and P2P_2P2​. You then continue to select uniformly random points on the circumference"
+    },
+    {
+      "name": "Big Bubble II",
+      "difficulty": "Easy",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "A spherical bubble has a radius increasing at a rate of 94π\\dfrac{9}{4\\pi}4π9​ inches per second. At the moment when the volume of the bubble is increasing at 363636 cubic inches per second, what rate is the surface area increasing at (in square inches per second)?"
+    },
+    {
+      "name": "Optimal Bidders II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Carter has come into contact with a bounty of gold. He takes it to an auction shop. The auction shop says that each person that bids will place a bid that is uniformly distributed between $500\\$500$500 and $1000\\$1000$1000. They also state that they can recruit people to bid for a price of $10\\$10$1"
+    },
+    {
+      "name": "Fireball Thrower",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Mario and Luigi are throwing Fireballs. Each one throws a fireball twice. Let M1M_1M1​ and M2M_2M2​ represent the distance of Mario's \n2 attempts, while L1L_1L1​ and L2L_2L2​ represent the distance of Luigi's 2 attempts. We have that Mi∼Exp(1)M_i \\sim \\text{Exp}(1)Mi​∼Exp(1) while Li∼Exp(2)L_i \\sim "
+    },
+    {
+      "name": "Coin Toss Game II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Alice and Bob are playing a game where they toss a fair coin. The first person to flip two heads (not necessarily sequentially) wins the game. Alice starts and then gives the coin to Bob and the cycle repeats until one of them has flipped two heads. What is the probability that Alice wins this game?"
+    },
+    {
+      "name": "Golden Pancakes",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You have three pancakes in front of you. One is toasted on both sides, one is toasted on one side, and one is not toasted at all. You hungrily choose a pancake at random and notice the top is toasted. What is the probability that the other side of your pancake is also toasted?"
+    },
+    {
+      "name": "Miscalculated Fibonacci",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Suppose that you are trying to calculate the terms in the Fibonacci sequence. You calculate the values of F0,F1,…,F99F_0, F_1, \\dots, F_{99}F0​,F1​,…,F99​ correctly. However, you say that the value of F100F_{100}F100​ is G100=1+F100G_{100} = 1 + F_{100}G100​=1+F100​. Assuming you carry over this err"
+    },
+    {
+      "name": "Dominated Turtle",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Two turtles, Tort and Bort, are going to perform independent simple symmetric random walks on the integers starting at positions 000 and 444, respectively. Compute the probability after 101010 steps, Tort and Bort are back at their initial positions and that Tort was strictly behind Bort at all 1010"
+    },
+    {
+      "name": "Family Ties",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A grandmother has two grandchildren and their ages so conveniently line up that the age of each grandchild is one of the digits of the grandmother's age. Additionally, the sum of all three ages is 98. What is the age of the grandmother?"
+    },
+    {
+      "name": "Normal Conditions",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose that X1∼N(0,9)X_1 \\sim N(0,9)X1​∼N(0,9) and X2∼N(0,16)X_2 \\sim N(0,16)X2​∼N(0,16) are independent. Compute E[X1∣X1+X2=5]\\mathbb{E}[X_1 \\mid X_1 + X_2 = 5]E[X1​∣X1​+X2​=5]."
+    },
+    {
+      "name": "Dart Distance",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A circular dartboard of radius 111 is placed on a ball. Joan throws a dart such that it lands uniformly at random on the surface of the dartboard. Find the expected radial distance that the dart lands from the center."
+    },
+    {
+      "name": "Poisoned Kegs III",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A king has 101010 servants that bravely risk their lives to test whether or not the wine in nnn kegs is poisonous. It is known that exactly one of the nnn kegs is poisonous. If someone drinks any amount of liquor from the poisoned keg, they will die in exactly 111 month. Otherwise, the servant will "
+    },
+    {
+      "name": "Observance Range",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Find the smallest value of nnn such that if we generate nnn IID Unif(0,1)(0,1)(0,1) random variables, the probability that at least one of them lies in the interval (0.48,0.52)(0.48,0.52)(0.48,0.52) is at least 99%99\\%99%."
+    },
+    {
+      "name": "Exact 5 II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Abd continually rolls a fair 6−6-6−sided die until he obtains his first 666. Compute the expected number of times Abd obtains the value 555 before he stops rolling."
+    },
+    {
+      "name": "ITM Expiration",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "Consider a vanilla call and a vanilla put option on an underlying stock SSS, with strike K=15K = 15K=15 following GBM dynamics. The risk-neutral probability that the put expires in the money is 0.420.420.42. What is the risk-neutral probability that the call expires in-the-money?"
+    },
+    {
+      "name": "Pharmaceutics II",
+      "difficulty": "Medium",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "A pharmaceutical company has researched a drug that they claim will enhance focus for 80%\\%% of people suffering from attention deficit disorder. After examining the drug, the FDA believes that their claims regarding the effectiveness of the drug are inflated. In an attempt to disprove the company's"
+    },
+    {
+      "name": "Defining Correlation",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "The correlation between XXX and YYY is 0.56. What is the correlation between 8X8X8X and Y+7Y+7Y+7?"
+    },
+    {
+      "name": "Derivative Difference",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Let f(x)f(x)f(x) be a function satisfying the differential equation f(x)−f′(x)=(x+1)3f(x) - f'(x) = (x+1)^3f(x)−f′(x)=(x+1)3 with initial condition f(0)=16f(0) = 16f(0)=16. Find f(9)f(9)f(9)."
+    },
+    {
+      "name": "Parameter Picker",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X∼Beta(a,b)X \\sim \\text{Beta}(a,b)X∼Beta(a,b) for some unknown parameters aaa and bbb. Suppose we know that for some c,d∈Rc,d \\in \\mathbb{R}c,d∈R, the support of Y=cX+dY = cX + dY=cX+d is [−0.02,0.04][-0.02,0.04][−0.02,0.04], E[Y]=1400\\mathbb{E}[Y] = \\dfrac{1}{400}E[Y]=4001​, and Var(Y)=332000(Y"
+    },
+    {
+      "name": "Bus Wait I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are waiting for a bus to get to QuantGuide on time! The bus runs on a fixed schedule of appearing every 101010 minutes. If you arrive at a uniformly random time throughout the day, what is the expected time until the next bus appears (in minutes)?"
+    },
+    {
+      "name": "Horse Arbitrage",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "There are three horses numbered 1,2,1,2,1,2, and 333. You have $1\\$1$1 to make bets. You may make bets in fractions of dollars. If horse 111 wins, you get $2\\$2$2 back for a $1\\$1$1 bet. If horse 222 wins, you receive $4\\$4$4 back for a $1\\$1$1 bet. If horse 333 wins, you receive $6\\$6$6 back for a "
+    },
+    {
+      "name": "Squares On A Chess Board",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "How many squares can be formed from the squares in an 8×88 \\times 88×8 square chess board?"
+    },
+    {
+      "name": "Duplicating Data",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "You use OLS regression model the relationship between news sentiment, XXX, and AAPL share price, YYY, and find that Y=156.3+10.21XY = 156.3 + 10.21XY=156.3+10.21X with a correlation coefficient of 0.780.780.78. You duplicate the data and re-run the OLS regression. How much did the correlation coeffi"
+    },
+    {
+      "name": "Black Or Yellow",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "There are four balls, two black and two yellow, in a box. You pick out one at a time at random without replacement. Before picking each one out, you guess at the color, and if you're right, you receive in dollars the number of balls left in the container before you chose it. For example, if you gues"
+    },
+    {
+      "name": "Matching Socks I",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Your drawer contains 2 red socks, 4 yellow socks, and 5 blue socks. In a rush, you randomly grab socks from the drawer. What is the minimum number of socks you need to grab to guarantee a pair of socks of the same color?"
+    },
+    {
+      "name": "Weighted Dice",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A 6−6-6−sided die is weighted so that the probability of rolling a side with nnn dots on it (1≤n≤6)(1 \\leq n \\leq 6)(1≤n≤6) is the proportion of the number of dots on that side to the total number dots on the die. Find the probability that if this die is rolled twice, the sum will be a 7."
+    },
+    {
+      "name": "Extrinsic Value I",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "We have an underlying SSS with price S0=5S_0 = 5S0​=5. You have a European call option on SSS with strike K=2K = 2K=2, currently with value C0=4.7C_0 = 4.7C0​=4.7. What is the intrinsic (I) and extrinsic (E) value of the option?\n\n\\\\\n\nGive the answer in the format of I2+E2I^2 + E^2I2+E2."
+    },
+    {
+      "name": "Straddle Delta",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "Let's consider a straddle on underlying SSS with strike KKK and expiry TTT. You have a put option on SSS, also with strike KKK and expiry TTT. This put option has Δ=−0.31\\Delta = -0.31Δ=−0.31. What is the Δ\\DeltaΔ of the straddle? Assume Black-Scholes dynamics."
+    },
+    {
+      "name": "Rain Chance I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "This weekend, there is a 40%40\\%40% chance it rains on Saturday and a 70%70\\%70% chance it rains on Sunday. Assuming independence, what is the probability it does not rain this weekend?"
+    },
+    {
+      "name": "Diner Dash",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Four friends agree to get lunch together at Jimmy's Diner. However, Jimmy's Diner is a chain with five locations. Suppose each friend goes to one of the locations at random. Compute the probability that they all end up at different locations."
+    },
+    {
+      "name": "Identical Hands",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A dealer is dealing a deck with 121212 cards to 444 players. The deck consists of 444 Kings, 444 Queens, and 444 Jacks. What is the probability that every person receives the same hand of 111 of each card?"
+    },
+    {
+      "name": "Slippery Snail",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A snail is 303030 feet away from some food. The snail moves at a rate of 444 feet per hour. However, at the end of each hour, a large gust of wind blows and the snail moves back 222 feet. The snail eats the food instantaneously once it reaches it. How many hours does it take for the snail to reach t"
+    },
+    {
+      "name": "Strangle Delta",
+      "difficulty": "Medium",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "The underlying is currently at price S0=2S_0 = 2S0​=2. You buy a strangle at strikes K=3K = 3K=3 and K=5K = 5K=5. What direction would you prefer the underlying to go towards? Answer 111 for up, −1-1−1 for down, and 000 for stay where it's at."
+    },
+    {
+      "name": "Decreasing Uniform Chain",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X1,X2,⋯∼Unif(0,1)X_1,X_2,\\dots \\sim \\text{Unif}(0,1)X1​,X2​,⋯∼Unif(0,1) IID. Let NNN be the first index nnn where Xn≠min{X1,…,Xn}X_n \\neq \\text{min}\\{X_1,\\dots, X_n\\}Xn​=min{X1​,…,Xn​}. Find E[XN−1]\\mathbb{E}[X_{N-1}]E[XN−1​] i.e. the smallest value among the first NNN values selected. The answ"
+    },
+    {
+      "name": "Builders",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Alice and Bob can each build a pipe on their own in 120120120 and 100100100 minutes, respectively. Instead, they work together on building a pipe. After 40 minutes of building, Charlie assists them in building the pipe. Together, they finish building the pipe 101010 minutes after Charlie joins. In h"
+    },
+    {
+      "name": "Always Profit I",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "QuantGuide stock will either double its value or go down 50%50\\%50% by tomorrow. You can also bet whether the stock goes up or down with your friend at 1:11:11:1 payout. Let A and B be the lowest round bet (can only bet whole dollars) amount you long/short the stock and bet on the stock going up/dow"
+    },
+    {
+      "name": "Party Groups I",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "There are 505050 guests at a party and they are making groups for a game. To do this they each write their name on a piece of paper and put it into a hat. One by one, each guest picks a name from the hat. Each guest will be a part of a group with the guest they pulled the name out of from the hat. I"
+    },
+    {
+      "name": "Game Arbitrage I",
+      "difficulty": "Hard",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "Consider the following group with the following teams. The contracts are given in the format of (Team, Time-0 Price)\\text{(Team, Time-0 Price)}(Team, Time-0 Price). The price of 0.670.670.67 means that if the team wins, you will get paid 111. If the team loses, you will get paid 000. \n\n(Team 1,0.84)"
+    },
+    {
+      "name": "Normal LOTUS I",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let XXX and YYY be jointly continuous random variables with joint PDF given by f(x,y)=xe−x(y+1)I(0,∞)(x)I(0,∞)(y)f(x,y) = xe^{-x(y+1)}I_{(0,\\infty)}(x)I_{(0,\\infty)}(y)f(x,y)=xe−x(y+1)I(0,∞)​(x)I(0,∞)​(y). Evaluate E[XY+1]\\mathbb{E}\\left[\\dfrac{X}{Y+1}\\right]E[Y+1X​]."
+    },
+    {
+      "name": "Binomial Pricing A Binary Call",
+      "difficulty": "Medium",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "We want to find the fair-value of a European binary call on an underlying SSS with initial value S0=4S_0 = 4S0​=4. At each time step, the underlying can either grow by 90%90\\%90% or shrink by 30%30\\%30%. At expiry (T=2T = 2T=2), the call will pay 111 if S>2S > 2S>2 and 000 otherwise. Round to 333 de"
+    },
+    {
+      "name": "Contract Arbitrage",
+      "difficulty": "Medium",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "We have a contract, VVV, that pays min⁡(2ST,4)\\min{(2S_T, 4)}min(2ST​,4) at expiry with initial price V0=3.4V_0 = 3.4V0​=3.4, the following European puts, given in the format of (Strike K,Price C0)(\\text{Strike } K, \\text{Price } C_0)(Strike K,Price C0​).\n\n(4,2.4)(2,0.8)\\begin{align*}\n(4, 2.4) \\\\ \n("
+    },
+    {
+      "name": "The Arithmetical Cabby",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "The driver of the taxi-cab was wanting in civility, so Mr. Wilkins asked him for his number.\n\"You want my number, do you?\" said the driver.\n\"Well, work it out for yourself.\nIf you divide by number by 2,3,4,5,62,3,4,5,62,3,4,5,6, you will find there is always 111 over, but if you divide it by 111111,"
+    },
+    {
+      "name": "Basic Dice Game III",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A casino offers you a game with a six-sided die where you are paid the value of the roll. If you roll a 1,2,1, 2,1,2, or 333, the game stops and you are paid out. Else, you add the value to your total sum and get to continue rolling. What is the fair value of this game?"
+    },
+    {
+      "name": "Returning Books",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Library patrons may either return their book at their local library or another library. If the book is returned to the local library, the system takes 2 hours to register this return action. If the book is returned to another library, the system takes 5 hours to register this return action. Suppose "
+    },
+    {
+      "name": "Mississippi",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "How many permutations of the word MISSISSIPPI are palindromes? A palindrome means that the string creates reads the same both forwards and backwards."
+    },
+    {
+      "name": "Binomial Maximizer",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose that X∼Binom(12,p)X \\sim \\text{Binom}(12,p)X∼Binom(12,p) with 0<p<10 < p < 10<p<1. Find the value of ppp that maximizes P[X=8]\\mathbb{P}[X = 8]P[X=8]."
+    },
+    {
+      "name": "Say Your Color",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "If WHITE=000, RED-101, BLUE-110, and PURPLE-100, then what three-digit string corresponds to YELLOW?"
+    },
+    {
+      "name": "Confident Double Heads",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A bag has 191919 fair coins and one double-headed coin. We pick a coin uniformly at random from the bag. What is the minimum number of times this coin would need to appear heads in a row to be at least 95%95\\%95% certain that the coin we have is the double-headed coin?"
+    },
+    {
+      "name": "Dice Roll Intuition",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Do not use a pen for the question. We are playing a game; we roll a fair, 6-sided die repeatedly. We stop playing the game when we get two specific numbers in a row; the payoff is equal to the total number of rolls of the die. For our two specific numbers, should we have a preference for (case 1) 4 "
+    },
+    {
+      "name": "Coloring Components I",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Consider a line of 252525 adjacent colorless squares. Color in each individual square black or white with equal probability, independent of all other squares. A connected component is a maximal sequence of adjacent squares all with the same color. For example, BBWBWWWBBW has 6 connected components. "
+    },
+    {
+      "name": "Unfair Roulette",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Gabe has a revolver with six chambers, and he convinces his friend Miriam to play a round of modified Russian roulette with him. He loads two bullets into the gun such that there is exactly one empty chamber between the two loaded chambers. He points the gun at his forehead, pulls the trigger, and s"
+    },
+    {
+      "name": "Inheritance Split",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A father leaves a $100\\$100$100 inheritance to his two sons, Abe and Ben. If one-third of Abe's inheritance is to be taken from one-fourth of Ben's inheritance, the difference would be $11\\$11$11. How much did Abe receive?"
+    },
+    {
+      "name": "Ant Collision I",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Alice and Bob raised their own ants. Alice has 404040 ants, while Bob has 808080 ants. Alice and Bob stand at opposite ends of an infinitesimally wide string and let all of their ants crawl on the string. Whenever one ant runs into another ant, they both bounce back and change direction. Each of the"
+    },
+    {
+      "name": "Compound Interest II",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "You start with $100\\$100$100 in your bank account today. You invest in a stock that yields 1%1\\%1% interest that is compounded daily. To the nearest dollar, how much will you have in your bank account after 151515 days?"
+    },
+    {
+      "name": "Generous Banker",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are at the bank and it is your lucky day. The banker is going pick random positive integer and you are too. You are both allowed to determine the probability distribution on the positive integers that you select from. If you and the banker select the same value, say nnn, you receive n2n^2n2 doll"
+    },
+    {
+      "name": "Paired Pumpkins I",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Dracula has 333 pumpkins, labeled 1−31-31−3. He knows the mass of each pair of pumpkins is (in kgs) is 19,21,19, 21,19,21, and 282828. Let w1,w2,w_1,w_2,w1​,w2​, and w3w_3w3​ be the weights of the three pumpkins. If possible, find w12+w22+w32w_1^2 +  w_2^2 + w_3^2w12​+w22​+w32​. If this is impossibl"
+    },
+    {
+      "name": "Empty Urn",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "We flip a fair coin until we obtain our first heads. If the first heads occurs on the kkkth flip, we are given kkk balls. We put them into 3 bins labeled 1,2, and 3 at random. Find the probability that none of the three bins are empty."
+    },
+    {
+      "name": "Sum Over Min Die",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You have been tasked to find the expected value of a die game in which you are rolling 222 dice at a time. Your first roll of the dice will all be summed up and will be your starting score. Your next, and final, roll of the 222 dice will be your divisor, in which you are going to pick the optimal di"
+    },
+    {
+      "name": "Shopping Habits",
+      "difficulty": "Hard",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "A researcher is investigating the temporal effect of shopping habits at the mall. She independently and randomly selects 20 weekend and 20 weekday shoppers and finds that weekend shoppers spend $\\$$78 on average with a standard deviation of $\\$$22, while weekday shoppers spend $\\$$67 on average with"
+    },
+    {
+      "name": "Primes And Composites",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "There is a game where an integer is picked uniformly between 222 and 101010 inclusive. You win $n\\$n$n if the integer is prime and lose $n2\\$\\frac{n}{2}$2n​ if its composite (where nnn is the integer picked). How much would you pay to play this game? If you don’t wish to play, enter 000."
+    },
+    {
+      "name": "Generational Wealth II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose that you generate a uniformly random number in the interval (0,1)(0,1)(0,1). You can generate additional random numbers as many times as you want for a fee of $0.05\\$0.05$0.05 per generation. The number of additional generations must be made prior to your first number that you generate. Your"
+    },
+    {
+      "name": "Paired Pumpkins II",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Dracula has 555 pumpkins. When he pairs any two pumpkins, they weigh 21,22,…,3021, 22, \\dots,3021,22,…,30 pounds. What's the sum of the weights of all the pumpkins?"
+    },
+    {
+      "name": "Multiple Divisors II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Find the probability that a uniformly randomly selected integer from the set of divisors of 20!20!20! is divisible by 202020."
+    },
+    {
+      "name": "Deviation Probability",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "XXX is a Gaussian random variable with μ=50\\mu = 50μ=50, σ2=4\\sigma^2 = 4σ2=4. what is P(X>54)\\mathbb{P}(X > 54)P(X>54)? Round to the nearest thousandth."
+    },
+    {
+      "name": "Tennis Gambling",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "The rules of tennis are the following: The scores go 0−15−30−400-15-30-400−15−30−40 to start. If one player has 40 points and the other has less than 40 and the player with 40 points wins the next serve, this player wins the game. If both players have 40 points, the player who wins the next serve ge"
+    },
+    {
+      "name": "Head Tail Sequence",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "555 fair coins are flipped. Given that you obtained 333 heads, find the probability that you obtained the sequence THHTHTHHTHTHHTH."
+    },
+    {
+      "name": "Non-Zero Eigenvalue",
+      "difficulty": "Hard",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "Let xn=[12…n]T∈Rnx_n = \\begin{bmatrix}\n\n1 & 2 & \\dots & n\n\n\\end{bmatrix}^T \\in \\mathbb{R}^nxn​=[1​2​…​n​]T∈Rn. Define An=xnxnTA_n = x_nx_n^TAn​=xn​xnT​. For any fixed nnn, there is a single non-zero eigenvalue. Call this eigenvalue λn\\lambda_nλn​. Find the value of kkk such that λnnk\\dfrac{\\lambda_n"
+    },
+    {
+      "name": "Min Card",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "John has a standard deck of 525252 cards. John identifies the ranks of the cards as 1−131-131−13, where Ace is 111 and King is 131313. He selects 444 cards uniformly at random from the deck. He then looks at the 444 cards he selected and removes the lowest ranked card from the subset of 444 and disc"
+    },
+    {
+      "name": "Continuous Blackjack",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Two players, a gambler and dealer, play continuous blackjack. The gambler goes first and generates a uniformly random number in (0,1)(0,1)(0,1). At any time, they can choose to stop or play again. If they play again, they generate another independent uniform random number in (0,1)(0,1)(0,1). If the "
+    },
+    {
+      "name": "Team Winners",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A tournament consistent of 323232 teams plays in a round-robin style tournament. This means that every single team plays every other team exactly one time. Suppose that every team is equally skilled so that every team is equally likely to beat any other team in a given match. Each team keeps track o"
+    },
+    {
+      "name": "3 Larger Die",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You have two fair 10−10-10−sided dice that are colored green and yellow with values 1−101-101−10 on each side. You roll both dice simultaneously. If they show the same value, then the game is over. If the two dice are not equal, but the yellow die shows a value at least 333 larger than the green die"
+    },
+    {
+      "name": "112 Appearance",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose you roll a fair 6−6-6−sided die until you either obtain a 222 for the first time or 222 consecutive 111s. Find the expected number of rolls you perform."
+    },
+    {
+      "name": "Sum Exceedance III",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X1,X2,⋯∼Unif(0,1)X_1,X_2,\\dots \\sim \\text{Unif}(0,1)X1​,X2​,⋯∼Unif(0,1) IID and N1=min{n:X1+⋯+Xn>1}N_1 = \\text{min}\\{n : X_1 + \\dots + X_n > 1\\}N1​=min{n:X1​+⋯+Xn​>1}. Let Sn=X1+⋯+XnS_n = X_1 + \\dots + X_nSn​=X1​+⋯+Xn​. Compute E[SN1]\\mathbb{E}[S_{N_1}]E[SN1​​]. The answer will be in the form ce"
+    },
+    {
+      "name": "Poisson Review V",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Gabe makes rugs. The number of imperfections follows a Poisson distribution with an average of 4 per square yard. It costs 101010 to repair each imperfection. Find the sum of the mean and variance of the repair cost for a 10-square-yard rug."
+    },
+    {
+      "name": "Dinner Party",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "At a dinner party, everyone shakes hands with everyone else exactly once. How many people are at the party if there are exactly 120 handshakes?"
+    },
+    {
+      "name": "Brownian Supremum",
+      "difficulty": "Hard",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "Let WtW_tWt​ be a standard Brownian Motion. Define Mt=sup⁡s∈[0,t]WsM_t = \\underset{s \\in [0,t]}{\\sup} W_sMt​=s∈[0,t]sup​Ws​. For any t>0t > 0t>0, find P[Mt>0]\\mathbb{P}[M_t > 0]P[Mt​>0]."
+    },
+    {
+      "name": "Parking Rush",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "There are 10 parking spots in front of QuantGuide headquarters. By 9:00 AM, all 10 parking spots are occupied. QuantGuide's 3 executives head home early in the afternoon, vacating their parking spots at random times distributed independently and uniformly between 12:00 PM and 3:00 PM. Andy is one of"
+    },
+    {
+      "name": "Bakugan And Beyblade",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Two machines independently manufacture Bakugan and Beyblade toys. The time it takes each machine to produce a toy is Exp(1)(1)(1) distributed. The manufacturing time is independent of all other toys. Assume there is no delay between when a machine produces a toy to when it starts the next toy. Find "
+    },
+    {
+      "name": "Double Data Trouble II",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Suppose that you run linear regression on some dataset and obtain the coefficients β^OLS\\hat{\\beta}_{OLS}β^​OLS​. Recall that if XXX is the data and σ2\\sigma^2σ2 is the variance of the IID normal errors, then Var(β^OLS)=σ2(XTX)−1\\text{Var}\\left(\\hat{\\beta}_{OLS}\\right) = \\sigma^2(X^TX)^{-1}Var(β^​OL"
+    },
+    {
+      "name": "Option Dice I",
+      "difficulty": "Easy",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "Pretend you have a simple options chain on the expected value of the product of two dice rolls. What would the call option at 303030 be priced at in this market?"
+    },
+    {
+      "name": "3rd Head",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Find the expected number of flips needed to observe 333 heads on a coin with probability 14\\dfrac{1}{4}41​ of heads per flip."
+    },
+    {
+      "name": "6 Die Stopper",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A standard fair 6−6-6−sided die is rolled up to (and including) when the first 666 is rolled. Find the probability that the sum of all upfaces viewed before stopping is even."
+    },
+    {
+      "name": "Friendly Competition",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Players 111 and 222 respectively start with $1\\$1$1 and $2\\$2$2. They flip a coin with probability 23\\dfrac{2}{3}32​ of heads on each toss. Player 111 receives $1\\$1$1 from Player 2 if the coin shows heads. Otherwise, Player 2 receives $1\\$1$1 from Player 1. Find the probability Player 2 goes broke "
+    },
+    {
+      "name": "Expecting Jacks",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Bill draws from a deck of cards repeatedly, with replacement. What is the expected number of draws to get four jacks in a row?"
+    },
+    {
+      "name": "Careful Side Choice",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You and a friend are each given a die. Both of you are allowed to independently determine how many sides each of your individual dice have. You may select 1,2,3,4,5,1,2,3,4,5,1,2,3,4,5, or 666 sides. The sides are labeled 1−k1-k1−k if you select kkk sides. Each side is equally likely to appear among"
+    },
+    {
+      "name": "Connected Origin",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose that in the integer lattice Z2\\mathbb{Z}^2Z2, each pair of vertices of Euclidean distance 1 has a path connecting them with probability ppp. Using the bound provided by sub-additivity, the interval of values of ppp so that the probability that the origin is in an infinite connected component"
+    },
+    {
+      "name": "Geometric PGF",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Instead of the Moment Generating Function (MGF), for non-negative integer-valued discrete random variables XXX, we can define the Probability Generating Function\\textit{Probability Generating Function}Probability Generating Function (PGF), which is given by p(z)=E[zX]p(z) = \\mathbb{E}[z^X]p(z)=E[zX]"
+    },
+    {
+      "name": "First Pair",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Find the probability that the top two cards of a well-shuffled standard deck form a pair (two cards of the same rank)."
+    },
+    {
+      "name": "Greedy Bob",
+      "difficulty": "Medium",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Alice and Bob are playing a game. Alice spins a spinner and wins XXX dollars, with\nmean 12 and variance 2. Bob flips a coin, and if the coin lands on heads, then Bob takes from Alice whatever she won, else Bob wins nothing.  What is Var(Y)\\text{Var}(Y)Var(Y), where Y denotes the amount Bob wins?"
+    },
+    {
+      "name": "Beer Barrel II",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A 120-quart beer barrel was discovered by Anna's parents. Furious, they plan to dump the barrel. Anna begs her parents to let her keep some of the beer. They say that Anna may do so if she is able to measure out an exact quart into each of a 7-quart and 5-quart vessel. You have exactly 111 of each t"
+    },
+    {
+      "name": "Limiting Random Variable I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X1,X2,…X_1,X_2,\\dotsX1​,X2​,… be a sequence of IID random variables with mean 555 and variance 202020. It is also known the third and fourth moments of X1X_1X1​ are finite. Let Yn=X12+X22X3X4+X52+X62X7X8+⋯+X4n−32+X4n−22X4n−1X4nnY_n = \\dfrac{X_1^2 + X_2^2X_3X_4 + X_5^2 + X_6^2X_7X_8 + \\dots + X_{"
+    },
+    {
+      "name": "Particle Reach I",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Consider a particle that performs a random walk on the integers starting at position 000. At each step, the particle moves from position iii to position i+1i+1i+1 with probability ppp, while the probability it moves from iii to i−1i-1i−1 is 1−p1-p1−p. If p=1/3p = 1/3p=1/3, find the probability the p"
+    },
+    {
+      "name": "Shattering Orbs",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "777 orbs are labeled 1−71-71−7 and are linked linearly in a vertical stack from the ceiling with orb 1 being a part of the ceiling and orb 7 being closest to the floor. Each orb is attached to adjacent orbs by a chain link. At each time step, one of the remaining links is going to be uniformly at ra"
+    },
+    {
+      "name": "Particle Reach VIII",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Complete Particle Reach VI First!\\textbf{Complete Particle Reach VI First!}Complete Particle Reach VI First! Consider a particle that performs a random walk on the integers starting at position 000. At each step, the particle moves from position iii to position i+1i+1i+1 with probability ppp, while "
+    },
+    {
+      "name": "Pairwise Digit Sums I",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Find the largest value of nnn such that the there exists a nnn digit number with all unique pairwise sums of digits. For example, if n=3n = 3n=3, 174174174 is a valid integer, since 1+7≠1+4≠7+41+7 \\neq 1+4 \\neq 7 + 41+7=1+4=7+4."
+    },
+    {
+      "name": "Distinct Date II",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Find the most recent date where all of the digits, when expressed in the form MM/DD/YYYYMM/DD/YYYYMM/DD/YYYY are distinct. For example, 01/23/456701/23/456701/23/4567 would be a valid date. Express your answer in the form MMDDYYYYMMDDYYYYMMDDYYYY."
+    },
+    {
+      "name": "Spherical Coodinates",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A random point (X1,X2,…,X10)(X_1,X_2,\\dots,X_{10})(X1​,X2​,…,X10​) is uniformly at random selected from the 10−10-10−ball that has radius 121212 centered at the origin. Find the variance of X1X_1X1​, the first coordinate."
+    },
+    {
+      "name": "Egg Drop III",
+      "difficulty": "Hard",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "You are holding three identical eggs in a really large building with nnn stories. If an egg is dropped at an elevation under story XXX, then the egg will survive; else, the egg breaks. It is known that the egg will break at some floor number 1−n1-n1−n. What is the maximum value of nnn such that at m"
+    },
+    {
+      "name": "Double Data Trouble V",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Suppose that you run linear regression on some dataset and obtain the coefficients β^OLS\\hat{\\beta}_{OLS}β^​OLS​. Recall that if XXX is the data and σ2\\sigma^2σ2 is the variance of the IID normal errors, then Var(β^OLS)=σ2(XTX)−1\\text{Var}\\left(\\hat{\\beta}_{OLS}\\right) = \\sigma^2(X^TX)^{-1}Var(β^​OL"
+    },
+    {
+      "name": "Dollar Cent Switch",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "A man went to his local bank to cash a check. When giving his money to the cashier, by mistake, gave him dollars as cents and cents as dollars. He didn't examine the money and just walked home and spent a nickel on some candy. He then found that he possessed exactly twice as much money as the check "
+    },
+    {
+      "name": "Portfolio Returns",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You have an equally-weighted portfolio consisting of three assets with the following annual returns: Asset A has a 30% chance of a 10% return, a 50% chance of a 5% return, and a 20% chance of a -2% return. Asset B has a 40% chance of a 12% return, a 30% chance of a 7% return, and a 30% chance of a -"
+    },
+    {
+      "name": "Sum Standard Deviation",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let XXX and YYY be random variables with standard deviations 111 and 333, respectively. The standard deviation of X+YX+YX+Y is 444. Find Corr(X,Y)\\text{Corr}(X,Y)Corr(X,Y)."
+    },
+    {
+      "name": "Straddle Arbitrage I",
+      "difficulty": "Medium",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "You have a straddle with initial price V0=5.4V_0 = 5.4V0​=5.4 with strike K=17K = 17K=17, a European vanilla put with initial price P0=4.2P_0 = 4.2P0​=4.2, a European vanilla call with C0=1.4C_0 = 1.4C0​=1.4, both at strike K=17K = 17K=17, the underlying stock SSS with initial price S0=14S_0 = 14S0​"
+    },
+    {
+      "name": "Prepped Offer?",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "45%45\\%45% of students don’t use QuantGuide, 25%25\\%25% are heavy prep users and 30%30\\%30% are light prep users. If the heavy prep users are twice as likely to get an offer as light prep users, and light prep users are twice as likely to get an offer as those that don’t use the platform, then what "
+    },
+    {
+      "name": "Hide And Seek",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You are playing a game of hide-and-seek with two friends. While one of your friends counts, you and your other friend are given a chance to hide in one of five possible hiding spots. You are each allowed to pick a hiding spot, and are permitted to share a hiding spot. Your friend finishes counting a"
+    },
+    {
+      "name": "Prime Subset",
+      "difficulty": "Hard",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Consider all subsets of S={1,2,3,…,30}S =  \\{1,2,3,\\dots,30\\}S={1,2,3,…,30} so that each pair of numbers in that subset are coprime. Find the subset Ω⊆S\\Omega \\subseteq SΩ⊆S satisfying the previous condition whose elements have the largest sum. What is the sum of all the elements in Ω\\OmegaΩ?"
+    },
+    {
+      "name": "Regional Manager III",
+      "difficulty": "Medium",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "The regional sales manager of a large paper corporation is attempting to detect a difference equal to one deal in the average number of deals closed per week by his employees. He runs a statistical test with the null hypothesis H0:μ=15H_0: \\mu = 15H0​:μ=15 against his alternative hypothesis Ha:μ=16H"
+    },
+    {
+      "name": "Sum Leak I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X1,X2,…,X40X_1,X_2,\\dots,X_{40}X1​,X2​,…,X40​ be IID random variables with E[X1]=2\\mathbb{E}[X_1] = 2E[X1​]=2 and E[1X1]=1\\mathbb{E}\\left[\\dfrac{1}{X_1}\\right] = 1E[X1​1​]=1. Define Sn=X1+⋯+XnS_n = X_1 + \\dots + X_nSn​=X1​+⋯+Xn​. Compute E[S20S40]\\mathbb{E}\\left[\\dfrac{S_{20}}{S_{40}}\\right]E[S4"
+    },
+    {
+      "name": "Particle Reach V",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Consider a particle that performs a random walk on the integers starting at position 000. At each step, the particle moves from position iii to position i+1i+1i+1 with probability ppp, while the probability it moves from iii to i−1i-1i−1 is 1−p1-p1−p. If p=1/3p = 1/3p=1/3, find the expected number o"
+    },
+    {
+      "name": "Car Crashes",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "On a given busy intersection, the probability of at least one car crash in a 111 hour time interval is 89\\dfrac{8}{9}98​. Assuming that car crashes occur independently of one another and at a constant rate throughout time, find the probability of at least one car crash in a 303030 minute interval."
+    },
+    {
+      "name": "Complementary Dice",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Two players are playing a game by rolling a single standard die. Player 111 rolls first. If the top surface of the die shows 111 or 222, then he wins. If not, then Player 222 will roll the die. If the top surface of the die shows 333, 444, 555, or 666, then he wins. Else, the game is continues until"
+    },
+    {
+      "name": "Simple Delta Hedge II",
+      "difficulty": "Medium",
+      "tags": [
+        "Finance"
+      ],
+      "text_preview": "You see that call options have Δ=0.25\\Delta = 0.25Δ=0.25 at strike K=24K = 24K=24. The underlying has price S0=21S_0 = 21S0​=21. You sell 100100100 put options at strike K=24K = 24K=24. You want to delta-hedge your portfolio. How many units of the underlying should you buy/sell? Enter −x-x−x if you "
+    },
+    {
+      "name": "20-30 Die Split I",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Alice and Bob have fair 30−30-30−sided and 20−20-20−sided dice, respectively. Both roll their die, and the person with the higher value showing wins. The loser must pay the winner the value showing on the winner's die. In the event of a tie, Bob is the winner. Find the expected payout for Alice."
+    },
+    {
+      "name": "20-30 Die Split III",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Alice and Bob have fair 30−30-30−sided and 20−20-20−sided dice, respectively. The goal for each player is to have the largest value on their die. Alice and Bob both roll their dice. However, Bob has the option to re-roll his die in the event that he is unhappy with the outcome. He can't see Alice's "
+    },
+    {
+      "name": "Coin Toss Game I",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Alice and Bob are playing a game where they toss a fair coin. The first person to flip both a heads and a tails (not necessarily in that order) wins the game. Alice starts and then gives the coin to Bob and the cycle repeats until one of them has flipped both a heads and a tails. What is the probabi"
+    },
+    {
+      "name": "9 Toss 4",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Yungeun rolls 999 fair dice simultaneously. Compute the probability that the product of the 999 values obtained is divisible by 444."
+    },
+    {
+      "name": "Triangular Partition",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A point PPP is chosen within triangle △ABC\\triangle ABC△ABC. Compute the probability that the area of △ABP\\triangle ABP△ABP, △BCP\\triangle BCP△BCP, or △CAP\\triangle CAP△CAP is no more than one fourth that of △ABC\\triangle ABC△ABC."
+    },
+    {
+      "name": "Hatching Eggs II",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Amy has a chicken. The number of eggs laid by the chicken in a month follows a Poisson process with λ=6\\lambda = 6λ=6. The probability that an egg hatches is 0.30.30.3. Eggs hatch independently of one another. Compute the variance of the number of hatched eggs."
+    },
+    {
+      "name": "Least Multiple Of 15",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "What is the least positive multiple of 15 whose digits consist of 1's and 0's only?"
+    },
+    {
+      "name": "Meeting On A Grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Alan is sitting at (0,0)(0,0)(0,0) and Barbara is sitting at (4,4)(4,4)(4,4). Each minute, Alan moves up or to the right one unit with equal probability, unless he is on the border of the 4×44 \\times 44×4 grid centered at (2,2)(2,2)(2,2), in which case he moves in the only possible direction that ke"
+    },
+    {
+      "name": "Checkmate",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Andy is playing chess. In order to receive a prize, he must win at least two consecutive games out of three. Andy may either play Michael, then Aaron, then Michael (option 1), or he may play Aaron, then Michael, then Aaron (option 2). Aaron is better at chess than Michael. Which option, 1 or 2, shou"
+    },
+    {
+      "name": "Coin Flipping Competition III",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Ty, Guy, and Psy are all flipping fair until they respectively obtain their first heads. Let T,G,T,G,T,G, and PPP represent the number of flips needed for Ty, Guy, and Psy, respectively. Find P[T<G<P]\\mathbb{P}[T < G < P]P[T<G<P]."
+    },
+    {
+      "name": "Curious Multiplicand",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "What integer can be multiplied by 1,2,3,4,5,1,2,3,4,5,1,2,3,4,5, and 666 and no new digits appear in any of the results? For example, 100⋅10=1000100 \\cdot 10 = 1000100⋅10=1000 has no new digits appearing in the result after multiplication."
+    },
+    {
+      "name": "Couples Reunited",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "999 married couples (111 male and 111 female) are standing in a line. They all scatter around and form 999 pairs uniformly at random. Find the expected number of couples that are paired up together. Note that pairs can also consist of members of the same gender."
+    },
+    {
+      "name": "Cube Colorer",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Dyann paints the outer faces of a 5×5×55 \\times 5 \\times 55×5×5 cube green and then cuts this large cube up into 125125125 1×1×11 \\times 1 \\times 11×1×1 cubes.  One of the cubes is then uniformly at random selected and rolled. Find the probability that this cube shows a green face up."
+    },
+    {
+      "name": "Expecting HTH",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "On average, how many tosses of a fair coin does it take to see HTH?"
+    },
+    {
+      "name": "Eigenspace Intersection",
+      "difficulty": "Easy",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "Let AAA be a n×nn \\times nn×n matrix with two distinct eigenvalues λ1≠λ2\\lambda_1 \\neq \\lambda_2λ1​=λ2​. Let Eλ1E_{\\lambda_1}Eλ1​​ and Eλ2E_{\\lambda_2}Eλ2​​ be the eigenspaces corresponding to the two eigenvalues. Find the cardinality (\"size\") of Eλ1∩Eλ2E_{\\lambda_1}\\cap E_{\\lambda_2}Eλ1​​∩Eλ2​​. I"
+    },
+    {
+      "name": "Side Add",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Ab rolls a fair standard 6−6-6−sided die. Afterwards, given he rolls kkk on the first roll, Ab rolls a fair (6+k)−(6+k)-(6+k)−sided die for the second roll with the values 1,2,…,6+k1,2,\\dots,6+k1,2,…,6+k. Find the expected value that appears on Ab's second roll."
+    },
+    {
+      "name": "Leftwards Frog",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A frog is hopping between 888 lily pads labeled 1−81-81−8 from left to right. The frog starts on lily pad 111. At each turn, the frog hops to a lily pad that it has not been to yet. Find the probability the frog made exactly 111 leftwards hop after visiting all of the stones."
+    },
+    {
+      "name": "Double Data Trouble VI",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Suppose that you run linear regression on some dataset and obtain the coefficients y^i=β^0+β^1xi\\hat{y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_iy^​i​=β^​0​+β^​1​xi​. Let t0t_0t0​ be the t−t-t−statistic obtained when testing the null hypothesis H0:β1=0H_0: \\beta_1 = 0H0​:β1​=0 against HA:β1≠0H_A: \\beta_"
+    },
+    {
+      "name": "Ping Pong Tournament II",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "505050 people are competing in a ping pong tournament where there is only one ping pong table. The competitors are numbered 111 through 505050. Suppose that if two competitors meet, the one with the larger number wins. Two competitors are chosen at random, and the loser is removed from the tournamen"
+    },
+    {
+      "name": "Absolute Normal Difference",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose that X∼N(0,1)X \\sim N(0,1)X∼N(0,1) and Y∼N(0,4)Y \\sim N(0,4)Y∼N(0,4) are independent. Compute E[∣Y−X∣]\\mathbb{E}[|Y - X|]E[∣Y−X∣]. The answer will be in the form (Kπ)b\\left(\\dfrac{K}{\\pi}\\right)^b(πK​)b for rational bbb and KKK. Find bKbKbK."
+    },
+    {
+      "name": "Left Corner",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A pawn on an 8×88\\times 88×8 chess board starts in the top left corner. In each move, the pawn is allowed to move one square in any direction, including diagonally, as long as it stays on the board. Each legal move on a given turn has equal probability of being selected. Find the probability that in"
+    },
+    {
+      "name": "Leading Sum",
+      "difficulty": "Medium",
+      "tags": [
+        "Pure Math"
+      ],
+      "text_preview": "Written in closed form, the expression 11000+21000+⋯+n10001^{1000}+2^{1000}+\\cdots+n^{1000}11000+21000+⋯+n1000 is a polynomial in nnn with leading term an1001a n^{1001}an1001 for some aaa. Find aaa."
+    },
+    {
+      "name": "OLS Review I",
+      "difficulty": "Easy",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Consider the following ordered pairs (x,y)(x, y)(x,y): (−2,3),(−1,2),(0,1),(1,1),(2,0.5)(-2, 3), (-1, 2), (0, 1), (1, 1), (2, 0.5)(−2,3),(−1,2),(0,1),(1,1),(2,0.5). Compute the sum of the least-squares estimators for the parameters β0,β1\\beta_0, \\beta_1β0​,β1​ in the model Y=β0+β1x+ϵY = \\beta_0 + \\b"
+    },
+    {
+      "name": "Paired Values I",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Suppose we have the values 1−61-61−6 in a bowl. We draw them without replacement, noting the order in which we selected them. We multiply the first two values together, the next two values together, and the last two values together. Lastly, we add the three products above. Find the probability the s"
+    },
+    {
+      "name": "Die Rank",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Let X1,…,X5X_1,\\dots,X_5X1​,…,X5​ be the upfaces of 555 independent rolls of a fair 6−6-6−sided die with values 1−61-61−6 on each side. Rank each of the following from largest to smallest in terms of value: a) E[X1X2]\\mathbb{E}[X_1X_2]E[X1​X2​]; b) E[X12]\\mathbb{E}[X_1^2]E[X12​]; c) E[X(3)2]\\mathbb{"
+    },
+    {
+      "name": "Equal Unequal Game",
+      "difficulty": "Easy",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Abby and Ben are playing a coin flipping game. Abby has a coin with probability ppp of showing heads on each flip and Ben has a fair coin. Abby flips her coin first, and then they alternate until one of them shows a heads. The person who flips the first heads is declared the winner. If it is known t"
+    },
+    {
+      "name": "Infinite Exponents",
+      "difficulty": "Easy",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "If xx...=2x^{x^{...}} = 2xx...=2, what is xxx (rounded to the nearest whole number)?"
+    },
+    {
+      "name": "5 Pairwise Sum",
+      "difficulty": "Hard",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Let S={a,b,c,d,e}S = \\{a,b,c,d,e\\}S={a,b,c,d,e} be a set of 555 (possibly repeated) real numbers. The pair sums of elements in SSS are: 5,11,11,13,13,14,16,19,22,225, 11, 11, 13, 13, 14, 16, 19, 22, 225,11,11,13,13,14,16,19,22,22 Find a2+b2+c2+d2+e2a^2 + b^2 + c^2 + d^2 + e^2a2+b2+c2+d2+e2."
+    },
+    {
+      "name": "Difference Of Four",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "You roll three fair dice. What is the probability that the difference between the highest and lowest values rolled is exactly four?"
+    },
+    {
+      "name": "Modified RNG",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "Jimmy picks a number uniformly at random from (0,1)(0,1)(0,1). If Jimmy chooses xxx, then Jon picks a number from (x,1)(x,1)(x,1) uniformly at random. If YYY represents the number Jon selects, in simplest form, find E[Y]Var(Y)\\dfrac{\\mathbb{E}[Y]}{\\text{Var}(Y)}Var(Y)E[Y]​."
+    },
+    {
+      "name": "Wire Connection",
+      "difficulty": "Medium",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "10 wires each of length 1 mile lay parallel to each other. Electrician A can only see one side of the wires, while Electrician B can only see the other side of the wires. They randomly connect pairs of distinct wire ends until all ends are accounted for. What is the probability that the connections "
+    },
+    {
+      "name": "Forming A Triangle",
+      "difficulty": "Hard",
+      "tags": [
+        "Probability"
+      ],
+      "text_preview": "A stick of unit length is randomly broken into three pieces. Assuming each break follows a uniform distribution along the stick, what is the probability that the three segments can form a triangle?"
+    },
+    {
+      "name": "Fair Match",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "Suppose that Andy has mmm 6−6-6−sided dice and Bandy has nnn 8−8-8−sided dice. If SmS_mSm​ is the sum of the upfaces of all mmm of Andy's dice and TnT_nTn​ is the sum of the upfaces of all nnn of Bandy's dice, find the product m∗n∗m^*n^*m∗n∗, where m∗m^*m∗ and n∗n^*n∗ are the smallest integer values"
+    },
+    {
+      "name": "Circular Delete",
+      "difficulty": "Medium",
+      "tags": [
+        "Brainteasers"
+      ],
+      "text_preview": "The numbers 1,2,…,20001,2,\\dots, 20001,2,…,2000 are put on the circumference of a circle in clockwise increasing order. You start at the integer 111 and delete it. Then you, move clockwise to 222 and keep it. Afterwards, you are going to repeat in this fashion of alternating between deleting integer"
+    },
+    {
+      "name": "Determination II",
+      "difficulty": "Hard",
+      "tags": [
+        "Statistics"
+      ],
+      "text_preview": "Given three data sets X1,X2,X_1, X_2,X1​,X2​, and YYY , we run two linear regressions to obtain y∼α1+β1x1y \\sim \\alpha_1 + \\beta_1 x_1y∼α1​+β1​x1​ and y∼α2+β2x2y \\sim \\alpha_2 + \\beta_2 x_2y∼α2​+β2​x2​. The R2R^2R2 value for both regressions is 0.050.050.05. Find the lowest upper bound on R2R^2R2 va"
+    }
+  ],
+  "note": "Review these sample questions to verify that categories match what's actually in the questions"
+}
