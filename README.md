@@ -1,0 +1,1 @@
+Scrapes QuantGuide question content and descriptors (name, tags, links) and organizes into AI-determined categories from a reasonable fixed set, uploading to Supabase to category-oriented materialized views for efficient study.
